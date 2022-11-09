@@ -1,0 +1,63 @@
+body{
+    font-family: 'Fredoka One', cursive;
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h1{
+    color: white;
+    font-size: 46px;
+    width: 1130px;
+    margin: 30px auto;
+
+}
+.box{
+    background-color: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    background-color: #101010;
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: red;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 50px;
+}
+.pra{
+    background-color: #191919;
+}
+.pra p{
+    color: darkorchid;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+span{
+    color: red;
+}
+.table{
+    display: table;
+}
+.table h6{
+    display: table-cell;
+    vertical-align: top;
+}

@@ -12,7 +12,7 @@ body{
     height: calc(100vh - 70px);
 }
 nav{
-    background: #0082e6;
+    background: transparent;
     height: 80px;
 }
 label.logo{
@@ -39,7 +39,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 a.active,a:hover{
-    background: #1b9bff;
+    background-color: blue;
     transition: .5s;
 }
 .checkbtn{
@@ -92,4 +92,56 @@ a.active,a:hover{
     #check:checked ~ ul{
     left: 0;
     }
+}
+.back-video{
+    margin: 0;
+    padding: 0;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
+}
+@media(max-aspect-ratio: 16/9){ 
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio: 16/9){ 
+    .back-video{
+        width: auto;
+        height: 100%;
+
+    }
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+label span{
+    color: red;
+}
+h1 span{
+    color: #ff0000;
 }
